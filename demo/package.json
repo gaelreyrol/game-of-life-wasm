@@ -1,11 +1,9 @@
 {
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server"
+    "dev": "web-dev-server"
   },
   "devDependencies": {
-    "webpack": "^4.16.3",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "@web/dev-server": "^0.1.0",
+    "@web/dev-server-hmr": "^0.1.8"
   }
 }
