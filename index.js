@@ -1,4 +1,4 @@
-import init, { Universe, Cell } from "./pkg/index"
+import init, { Universe, Cell } from "./pkg/index.js"
 
 async function run() {
     const { memory } = await init()
