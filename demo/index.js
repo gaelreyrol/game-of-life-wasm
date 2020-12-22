@@ -1,4 +1,4 @@
-import init, { Universe, Cell } from "../pkg/game_of_life_wasm.js"
+import init, { Universe, Cell } from "./pkg"
 
 async function run() {
     const { memory } = await init()
